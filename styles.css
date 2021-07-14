@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "Heebo", sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    background: url(./mountains.JPG);
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+}
+
+.navlinks li {
+    padding: 5rem;
+    font-size: 1.2rem;
+}
+
+#logo {
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.big-text {
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: rgb(197, 153, 140);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px#b59aa7, 0 0 10px #b59aa7, 0 0 20px #b59aa7, 0 0 30px #b59aa7, 0 0 40px #b59aa7;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 10px #d1c5cb, 0 0 10px #d1c5cb, 0 0 15px #d1c5cb, 0 0 25px #d1c5cb, 0 0 35px #d1c5cb, 0 10 45px #d1c5cb;
+    }
+  }
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    background: rgba(35, 43, 48, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color: rgb(197, 153, 140);;
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
