@@ -1,0 +1,1 @@
+Here is a animated web front page layout built with the help of gasp3 animation. Cool effect, check this out!
