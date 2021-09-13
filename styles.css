@@ -23,19 +23,30 @@ nav {
 }
 
 .navlinks {
+    padding: 2rem;
     display: flex;
     list-style: none;
 }
 
 .navlinks li {
-    padding: 5rem;
+    padding: 2rem;
     font-size: 1.2rem;
+    border: 4px solid rgb(197, 153, 140);
+    border-radius: 10%;
+    margin: 2rem;
+    color:rgb(197, 153, 140)
 }
 
 #logo {
     font-family: 'Lobster', cursive;
     font-weight: lighter;
     font-size: 2rem;
+    border: 4px solid rgb(197, 153, 140);
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10%;
+    color:rgb(197, 153, 140)
+
 }
 
 .big-text {
