@@ -29,24 +29,27 @@ nav {
 }
 
 .navlinks li {
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
     padding: 2rem;
     font-size: 1.2rem;
     border: 4px solid rgb(197, 153, 140);
     border-radius: 10%;
     margin: 2rem;
-    color:rgb(197, 153, 140)
+    color:rgb(197, 153, 140);
+    cursor: pointer;
 }
 
 #logo {
     font-family: 'Lobster', cursive;
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 4px solid rgb(197, 153, 140);
     padding: 2rem;
     margin: 2rem;
     border-radius: 10%;
-    color:rgb(197, 153, 140)
-
+    color:rgb(197, 153, 140);
+    cursor: pointer;
 }
 
 .big-text {
@@ -58,6 +61,22 @@ nav {
     transform: translate(-50%, -30%);
     color: rgb(197, 153, 140);
     animation: glow 2s ease-in-out infinite alternate;
+}
+
+.images {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.image {
+    border: 4px solid rgb(197, 153, 140);
+    margin-top: 10rem;
+    width: 20rem;
+    height: 30rem;
+
 }
 
   
