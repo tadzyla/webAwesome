@@ -8,12 +8,14 @@ main {
     font-family: "Heebo", sans-serif;
 }
 
-.landing {
-    min-height: 100vh;
+body {
     background: url(./mountains.JPG);
+    background-position: center;
     background-size: cover;
-    padding: 0rem 5rem;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px); 
 }
+
 
 nav {
     display: flex;
@@ -80,7 +82,7 @@ nav {
 }
 
   
-  @-webkit-keyframes glow {
+  @keyframes glow {
     from {
       text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px#b59aa7, 0 0 10px #b59aa7, 0 0 20px #b59aa7, 0 0 30px #b59aa7, 0 0 40px #b59aa7;
     }
